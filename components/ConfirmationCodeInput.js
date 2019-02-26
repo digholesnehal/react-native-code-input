@@ -124,7 +124,7 @@ export default class ConfirmationCodeInput extends Component {
 	_onKeyPress = (e) => {
 	    if (e.nativeEvent.key === 'Backspace') {
 	      // Return if duration between previous key press and backspace is less than 20ms
-	      if (Math.abs(this.lastKeyEventTimestamp - e.timeStamp) < 20) return;
+// 	      if (Math.abs(this.lastKeyEventTimestamp - e.timeStamp) < 20) return;
 
 	      const { currentIndex } = this.state;
 	      const nextIndex = currentIndex > 0 ? currentIndex - 1 : 0;
