@@ -131,7 +131,7 @@ export default class ConfirmationCodeInput extends Component {
 	      this._setFocus(nextIndex);
 	    } else {
 	      // Record non-backspace key event time stamp
-	      this.lastKeyEventTimestamp = e.timeStamp;
+// 	      this.lastKeyEventTimestamp = e.timeStamp;
 	    }
 	  }
 
